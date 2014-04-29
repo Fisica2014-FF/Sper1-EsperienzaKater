@@ -1,0 +1,102 @@
+Qui ci sono i programmi usati per l'analisi dei dati
+
+\begin{verbatim}
+Propagazione errori:----------------------------------------------------
+
+/*
+ * errore_reciproco.cxx
+ *
+ *  Created on: Mar 31, 2014
+ *      Author: andrea
+ */
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	double err = 0.1;
+	double val = 0;
+	double err_rec = 0;
+	int i = 1;
+	while (cin >> val) {
+		err_rec = i * 2 *3.14 * err / (val * val);
+		cout << err_rec << endl;
+		i++;
+	}
+	return 0;
+}
+
+
+
+
+Media Pesata:------------------------------------------------------------
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+int main() {
+	
+	//long double media = 0;
+	long double x;
+	long double somma_x = 0;
+	long double sigma_x = 0;
+	long double somma_sigma2 = 0;
+	long i = 0;
+	while (cin >> x) {
+		cin >> sigma_x;
+		somma_x += x * 1 / (sigma_x * sigma_x);
+		somma_sigma2 += 1 / (sigma_x * sigma_x);
+		i++;
+	}
+	cout << somma_x / somma_sigma2 << endl;
+	cout << sqrt(1 / somma_sigma2) << endl;
+}
+Calcolo momento d'inerzia e relativo errore:------------------------------------------------
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+const long double r=0.01895, m=0.034, g=9.806, s_r=0.00001, s_g=0.001, s_m=0.0005;
+double momento(double al, double be);
+long double sigma(double alpha, double s_alpha, double beta, double s_beta);
+
+int main(int argc, const char * argv[])
+{
+    
+    //cin alpha beta ed errori
+    long double alpha, beta, s_alpha, s_beta,I_0,s_I_0;
+    
+    cout << "---------------------Calcolare il momento d'inerzia---------------------";
+    cout << endl;
+
+    cout << "Alpha = ";
+    cin  >> alpha;
+    cout << "Errore di alpha = ";
+    cin  >> s_alpha;
+    cout << "Beta = ";
+    cin  >> beta;
+    cout << "Errore di beta = ";
+    cin  >> s_beta;
+    cout << endl;
+    I_0   = momento(alpha, beta);
+    s_I_0 = sigma(alpha, s_alpha, beta,s_beta);
+    cout<<"Il momento è :  "<< I_0 << " ± " << s_I_0<< endl;
+    return 0;
+}
+
+double momento(double al, double be){
+    return ((r*m*g-m*al*r*r)/(al-be));
+}
+
+long double sigma(double alpha, double s_alpha, double beta, double s_beta){
+    return (sqrt(
+				 (((m*g-2*m*alpha*r)/(alpha-beta))   				 *   ((m*g-2*m*alpha*r)/(alpha-beta))    *s_r*s_r) +
+                 (((r*g-r*alpha*r)/(alpha-beta))     				 *   ((r*g-r*alpha*r)/(alpha-beta))      *s_m*s_m) +
+                 (((r*m-r*alpha*r*m)/(alpha-beta))   				 *   ((r*m-r*alpha*r*m)/(alpha-beta))    *s_g*s_g) +
+                 (((r*r*m*beta-r*g*m)/((alpha-beta)*(alpha-beta)))   *   ((r*r*m*beta-r*g*m)/((alpha-beta)*(alpha-beta)))    *s_alpha*s_alpha) +
+                 (((m*g*r-m*r*r*alpha)/((alpha-beta)*(alpha-beta)))  *   ((m*g*r-m*r*r*alpha)/((alpha-beta)*(alpha-beta)))   *s_beta*s_beta) ));
+}
+
+\end{verbatim}

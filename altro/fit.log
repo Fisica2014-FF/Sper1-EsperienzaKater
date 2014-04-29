@@ -1,0 +1,290 @@
+
+
+*******************************************************************************
+Tue Apr 15 12:31:11 2014
+
+
+FIT:    data read from "<paste ./pintervallo ./pandata" using 1:2
+        format = x:z
+	y range restricted to [0.228095 : 0.251905]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.72917           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.727209
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 4.00167e-06
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00200042
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.00167e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 2.18027          +/- 0.03397      (1.558%)
+b               = -0.755           +/- 0.1415       (18.74%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.999  1.000 
+
+
+*******************************************************************************
+Tue Apr 15 12:32:49 2014
+
+
+FIT:    data read from "<paste ./pintervallo ./pandata" using 1:2
+        format = x:z
+	y range restricted to [0.228095 : 0.251905]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.00167e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.727209
+
+initial set of free parameter values
+
+a               = 2.18027
+b               = -0.755
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.00167e-06
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00200042
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.00167e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 2.18027          +/- 0.03397      (1.558%)
+b               = -0.755           +/- 0.1415       (18.74%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.999  1.000 
+
+
+*******************************************************************************
+Tue Apr 15 12:33:29 2014
+
+
+FIT:    data read from "<paste ./pintervallo ./provescio" using 1:2
+        format = x:z
+	y range restricted to [0.228095 : 0.251905]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.73615           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.727209
+
+initial set of free parameter values
+
+a2              = 1
+b2              = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.66667e-09
+rel. change during last iteration : -1.64252e-11
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.16497e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.66667e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a2              = 2.06067          +/- 0.001386     (0.06728%)
+b2              = -0.25            +/- 0.005774     (2.309%)
+
+
+correlation matrix of the fit parameters:
+
+               a2     b2     
+a2              1.000 
+b2             -0.999  1.000 
+
+
+*******************************************************************************
+Tue Apr 15 12:38:07 2014
+
+
+FIT:    data read from "<paste ./pintervallo ./pandata" using 1:2
+        format = x:z
+	y range restricted to [0.235021 : 0.244979]
+BREAK:          No data to fit 
+
+
+
+*******************************************************************************
+Tue Apr 15 12:38:45 2014
+
+
+FIT:    data read from "<paste ./pintervallo ./pandata" using 1:2
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.00167e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.727209
+
+initial set of free parameter values
+
+a               = 2.18027
+b               = -0.755
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.00167e-06
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00200042
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.00167e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 2.18027          +/- 0.03397      (1.558%)
+b               = -0.755           +/- 0.1415       (18.74%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.999  1.000 
+
+
+*******************************************************************************
+Tue Apr 15 12:49:42 2014
+
+
+FIT:    data read from "<paste ./ppintervallo ./ppdritto" using 1:2
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.73513           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.727192
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 4.16667e-08
+rel. change during last iteration : -2.44041e-09
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000204124
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.16667e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 2.24767          +/- 0.006929     (0.3083%)
+b               = -1.03            +/- 0.02887      (2.803%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -1.000  1.000 
+
+
+*******************************************************************************
+Tue Apr 15 12:51:33 2014
+
+
+FIT:    data read from "<paste ./pintervallo ./provescio" using 1:2
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.73615           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.727209
+
+initial set of free parameter values
+
+a2              = 1
+b2              = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.66667e-09
+rel. change during last iteration : -1.64252e-11
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.16497e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.66667e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a2              = 2.06067          +/- 0.001386     (0.06728%)
+b2              = -0.25            +/- 0.005774     (2.309%)
+
+
+correlation matrix of the fit parameters:
+
+               a2     b2     
+a2              1.000 
+b2             -0.999  1.000 
